@@ -1,0 +1,1 @@
+﻿https://docs.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore?tabs=net50&pivots=platform-windows
