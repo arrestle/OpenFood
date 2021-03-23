@@ -11,10 +11,43 @@ code {
 
 .btn-primary {
   color: #fff;
-  background-color: #1b6ec2;
+  background-color: darkgreen;
   border-color: #1861ac;
 
   border-radius: 10px;
   margin: 0 0 3px 0;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 10px;
+  background-color: darkgreen;
+  padding: 10px;
+}
+
+.grid-row {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+  background-color: darkgreen;
+  padding: 10px;
+}
+
+  .grid-row > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    padding: 20px 10px;
+    font-size: 30px;
+  }
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  padding: 20px 10px;
+  font-size: 30px;
+}
+
+.item2Wide {
+  grid-column: 2 / span 5;
+}
